@@ -32,6 +32,7 @@ This first test allowed me to test the app authentication page, which redirected
 
 With the steps to authenticating made, we can validate if after performing those steps, the webpage actually corresponds to what we expect. In this particular case, after authenticated, a header message saying `Hello, John` substitutes the login button.
 By hovering the arrow between the steps, you can include additional steps, like validation. You can validate if an element is visible or not, if a particular text is present or even provide custom validations.
+
 For the effects of this simple scenario, to check that `Hello, John` appears, I added steps after the authentication was done to check if the element is visible and if the text is correct.
 If you set breakpoints, you can run the test just up to where you want to add the validations, which will open the webpage precisely where you want to test.
 
